@@ -1,4 +1,4 @@
-# KcApp
+# kc-app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
 
@@ -25,3 +25,60 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Angular Learning step by step
+install nvm
+1. download nvm
+2. open and install
+3. open command prompt
+4. type	nvm -v    (check version)
+5. nvm list	  (ano mga naka install) kung wala
+6. type nvm install 16
+7. 	nvm use 16
+8. 	node -v
+9. 	npx -v
+11. dir 			(directory)
+12. mkdir kc			(create folder)
+13. cd kc			(go to folder type)
+14. npm install @angular/cli@14	(install CLI in kc folder)
+15. dir				(check installed in folder kc)
+16. dir node_module		(check installed in folder kc)
+17. tyoe ng 
+18. ng new kc-app		(create new web app)
+19. css				(choose stylesheet)
+20. cd kc-app			(change directory to kc-app)
+21. ng serve --open		(open and creating local host)
+22. error different version should be 16
+23. notepad package-lock.json	(open and check the exsiting version in dependency)
+24. https://stackoverflow.com/a/79276733/28766039 (answer, to remove and override node dependency version 16)
+25. npm install 		(sync package lock.json)
+26. ng serve --open		(open and creating local host without error http://localhost:4200/)
+27. download git dearch in browser (to check all changes)
+28. git -v
+29. ssh-keygen -t ed25519 -C "kclyn.perea@gmail.com" (to connect pc to github)
+30. open github account 
+31. go to setting
+32. shh
+33. new shh key
+34. add title and copy paste the key created 
+
+35. create new repository on github account (for online backup)
+36. same name to your web app kc-app
+37. git init	(in cmd)
+38. go to github account check your repository follow the instruction
+	git init
+	git add .			
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin git@github.com:kcperea/kc-app.git
+	git push -u origin main
+
+39. save your notes in readme 
+40. go to vscode click readme
+41. copy paste your notes 
+42. go to cmd type git status
+43. git add readme.md
+44. git status 		(green text means added to next commit)
+45. git commit -m "track my progress"
+
