@@ -82,3 +82,18 @@ install nvm
 44. git status 		(green text means added to next commit)
 45. git commit -m "track my progress"
 
+
+46. Change computer set up
+47.  search ssh keygem docs
+48. open cmd or terminal
+49. copy paste keygem docs code
+50. open notepad ... pub
+51. create new ssh key in github, paste pub key
+52. open vscode terminal
+53. git clone git@github.com:kcperea/kc-app.git
+54. code kc-app, commit and push won't work yet
+55. git config --global user.name "kc.perea" ; required to commit
+56. git config --global user.email 'kclyn.perea@gmail.com" ; required to commit
+57. use IDE to push changes or $ git add . 
+58. git commit -m "Setting up on another computer" 
+59. git push
